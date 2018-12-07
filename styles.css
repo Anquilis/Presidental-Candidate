@@ -1,0 +1,53 @@
+.header {
+    text-align: center;
+    background: url("");
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.menu {
+    width: 100%;
+    align-self: center;
+}
+
+.main {
+    width: 100%;  
+}
+
+.footer {
+    text-align:center;
+}
+
+.donate {
+    margin: 75px;
+    align-self: center;
+}
+
+body {
+    background: linear-gradient(to right,#72A0B7 50%, #DB3A49 0%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.small {
+    width: 500px;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    margin: auto;
+    font-size: 50px;
+    background-color: #003050;
+    color: #7096A0;
+    border: solid #FAE3AD 8px;
+}
+
+h1 {
+    background-color: #003050;
+    color: #7096A0;
+    border: solid #FAE3AD 8px;
+}
