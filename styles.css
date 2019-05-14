@@ -1,6 +1,6 @@
 .header {
     text-align: center;
-    background: url("");
+    background-image: url("https://i.imgur.com/7tFsTbL.png");
 }
 
 .main {
@@ -10,12 +10,9 @@
 }
 
 .menu {
+    display: flex;
     width: 100%;
     align-self: center;
-}
-
-.main {
-    width: 100%;  
 }
 
 .footer {
@@ -25,19 +22,21 @@
 .donate {
     margin: 75px;
     align-self: center;
+    background-color: #003050;
 }
 
 body {
     background: linear-gradient(to right,#72A0B7 50%, #DB3A49 0%);
-    font-family: 'Montserrat', sans-serif;
 }
 
 .small {
-    width: 500px;
+    width: 400px;
+    border: solid #FAE3AD 8px;
 }
 
+.picture {justify-content: space-between;}
+
 button {
-    font-family: 'Montserrat', sans-serif;
     display: block;
     margin: auto;
     font-size: 50px;
@@ -47,7 +46,10 @@ button {
 }
 
 h1 {
-    background-color: #003050;
     color: #7096A0;
-    border: solid #FAE3AD 8px;
+    font-size: 50px;
+}
+p { 
+    font-size: 25px;
+    color: #7096A0;
 }
